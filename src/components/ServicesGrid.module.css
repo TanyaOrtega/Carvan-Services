@@ -1,0 +1,13 @@
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 160px;
+    padding: 40px;
+    justify-content: center;
+}
+
+@media  (max-width: 560px) {
+    .servicesGrid {
+        grid-template-columns: 100%;
+    }
+}

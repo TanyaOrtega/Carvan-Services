@@ -1,0 +1,90 @@
+[
+    {
+      "id": 613504,
+      "overview": "Let our cleaning pros maintain your home always clean and fresh with our recurring cleaning services. We bring our own equipment and supplies. This service is for weekly, bi-weekly or monthly services. **Price is an estimate and will be confirmed upon verification of the scope of the work.",
+      "poster_path": "Limpieza5.jpg?raw=true",
+      "title": "Standard Cleaning Studio",
+      "time": "1 Hr",
+      "price": "$100"
+    },
+    {
+        "id": 613505,
+        "overview": "Let our cleaning pros maintain your home always clean and fresh with our recurring cleaning services. We bring our own equipment and supplies. This service is for weekly, bi-weekly or monthly services. **Price is an estimate and will be confirmed upon verification of the scope of the work.",
+        "poster_path": "Limpieza5.jpg?raw=true",
+        "title": "Standard Cleaning 1Bed - 1Bath",
+        "time": "2 Hr",
+        "price": "$140" 
+    },
+    {
+        "id": 613506,
+        "overview": "Let our cleaning pros maintain your home always clean and fresh with our recurring cleaning services. We bring our own equipment and supplies. This service is for weekly, bi-weekly or monthly services. **Price is an estimate and will be confirmed upon verification of the scope of the work.",
+        "poster_path": "Limpieza5.jpg?raw=true",
+        "title": "Standard Cleaning 2Bed - 1Bath",
+        "time": "2 Hr 30",
+        "price": "$160"
+    },
+    {
+        "id": 613507,
+        "overview": "Let our cleaning pros maintain your home always clean and fresh with our recurring cleaning services. We bring our own equipment and supplies. This service is for weekly, bi-weekly or monthly services. **Price is an estimate and will be confirmed upon verification of the scope of the work.",
+        "poster_path": "Limpieza5.jpg?raw=true",
+        "title": "Standard Cleaning 2Bed - 2Bath",
+        "time": "3 Hr",
+        "price": "$180"
+    },
+    {
+        "id": 613508,
+        "overview": "Let our cleaning pros maintain your home always clean and fresh with our recurring cleaning services. We bring our own equipment and supplies. This service is for weekly, bi-weekly or monthly services. **Price is an estimate and will be confirmed upon verification of the scope of the work.",
+        "poster_path": "Limpieza5.jpg?raw=true",
+        "title": "Standard Cleaning 3Bed - 2Bath",
+        "time": "4 Hr",
+        "price": "$220"
+    },
+    {
+        "id": 613509,
+        "overview": "Let our cleaning pros maintain your home always clean and fresh with our recurring cleaning services. We bring our own equipment and supplies. This service is for weekly, bi-weekly or monthly services. **Price is an estimate and will be confirmed upon verification of the scope of the work.",
+        "poster_path": "Limpieza5.jpg?raw=true",
+        "title": "Standard Cleaning 4Bed - 3Bath",
+        "time": "5 Hr",
+        "price": "$240"
+    },
+    {
+        "id": 613510,
+        "overview": "Weekly, biweekly, or monthly. Our cleanings include dusting, cleaning counters, changing the garbage, cleaning bathrooms, kitchens and mopping floors.",
+        "poster_path": "Limpieza6.jpg?raw=true",
+        "title": "Office Cleaning",
+        "time": "2hr",
+        "price": "$140"
+    },
+    {
+        "id": 613512,
+        "overview": "Keep your store front always clean with our window cleaning service. You can add this to your standard office cleaning or as a stand alone service.",
+        "poster_path": "Limpieza14.jpg?raw=true",
+        "title": "Windows Cleaning",
+        "time": "2hr",
+        "price": "$140"  
+    },
+    {
+        "id": 613513,
+        "overview": "We can steam clean your carpets yearly and also offer a low moisture maintenance cleaning to keep your carpets clean all year long.",
+        "poster_path": "Limpieza2.jpg?raw=true",
+        "title": "Carpet Cleaning",
+        "time": "2hr",
+        "price": "$200"
+    },
+    {
+        "id": 613514,
+        "overview": "Keep your couches, sitting chairs, office chairs, draperies, rugs and traffic mats always clean with our upholstery cleaning service.",
+        "poster_path": "Limpieza3.jpg?raw=true",
+        "title": "Upholstery",
+        "time": "2hr",
+        "price": "$160"
+    },
+    {
+        "id": 613515,
+        "overview": "Whether you need strip and wax on vinyl, tile and grout, hardwood cleaning, we can keep all your hard floor surfaces clean with our maintenance packages.",
+        "poster_path": "Limpieza7.jpg?raw=true",
+        "title": "Floor Manteinance Service",
+        "time": "2hr",
+        "price": "$160"
+    }
+  ]

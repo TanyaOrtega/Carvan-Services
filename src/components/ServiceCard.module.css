@@ -1,0 +1,20 @@
+.serviceCard {
+    list-style: none;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.serviceImage {
+    border-radius: 15px;
+    background-color: rgb(216, 227, 238);
+    width: auto;
+    height: 200px;
+}
+
+@media  (max-width: 560px) {
+    .servicesImage {
+        width: 90%;
+        height: auto;
+    }
+}
