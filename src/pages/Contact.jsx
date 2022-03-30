@@ -16,7 +16,7 @@ export function Contact () {
 
 
     return (<div>
-        <h1>Contact us for a Free Consultation</h1>
+        <h1 className="form-h1">Contact us for a Free Consultation</h1>
         <br/>
         <div className="form">
         <form onSubmit={handleSubmit}>
@@ -51,7 +51,7 @@ export function Contact () {
             <input type="radio" id="office" name="service" value="office" onChange={(e) => setService(e.target.value)} />
             <label htmlFor="office">Proffesional Offices</label>
             <p>Choose the number of rooms for the service</p>
-            <select name="rooms" onChange={(e) => setRooms(e.target.value)}>
+           <center> <select className="list" name="rooms" onChange={(e) => setRooms(e.target.value)}>
                 <option value="">---</option>
                 <option value="studio">Studio</option>
                 <option value="1br1bath">1 BR-1 BATH</option>
@@ -60,9 +60,9 @@ export function Contact () {
                 <option value="3br2bath">3 BR-2 BATH</option>
                 <option value="4br3bath">4 BR-3 BATH</option>
                 <option value="other">Other</option>    
-                </select> 
+                </select> </center>
                 <br/>
-                <input type="submit"/>
+                <input className="button" type="submit"/>
         </form>
         </div>
         </div>)
