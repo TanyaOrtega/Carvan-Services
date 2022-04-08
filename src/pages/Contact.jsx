@@ -1,4 +1,13 @@
 import React, { useState } from "react";
+import 'date-fns';
+import Grid from '@material-ui/core/Grid';
+import DateFnsUtils from '@date-io/date-fns';
+import {
+    MuiPickersUtilsProvider, 
+    KeyboardTimePicker,
+    KeyboardDatePicker
+} from '@material-ui/pickers';
+
 
 export function Contact () {
     const [name,setName] = useState("");
@@ -9,9 +18,14 @@ export function Contact () {
     const [email,setEmail] = useState("");
     const [service, setService] = useState("");
     const [rooms, setRooms] = useState("");
+    const [description, setDescription] = useState ("");
+    const [selectedDate, setSelectedDate] = useState (new Date("2022-04-04T12:00:00"))
+    const handleDateChange = (date) => {
+        setSelectedDate(date)
+    };
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert("The form has sent");
+        alert("Your form has sent, we will call you back soon");
     };
 
 
@@ -61,6 +75,37 @@ export function Contact () {
                 <option value="4br3bath">4 BR-3 BATH</option>
                 <option value="other">Other</option>    
                 </select> </center>
+                <br/>
+                <p>Incluide a brief description of the rooms and especifications you would like in your service.</p>
+                <br/>
+            <label htmlFor="description">Description</label>
+            <input type="text" id="description" placeholder="Ex. We have a basement that ..." name="description" value={description} onChange={(e) => setCity(e.target.value)} />
+            <br/>
+            <p>Select the day and time you would like your service</p>
+            <MuiPickersUtilsProvider utils={DateFnsUtils}>
+                <Grid container justify='space-around'>
+                    <KeyboardDatePicker
+                    disableTooolbar
+                    variant='dialog'
+                    format='MM/dd/yyy'
+                    margin='normal'
+                    id='date-picker'
+                    //label='Choose the Date'
+                    value={selectedDate}
+                    onChange={handleDateChange}
+                    KeyboardButtonProps={{'aria-label':'change date'}}
+                    />
+                    <KeyboardTimePicker
+                    margin='normal'
+                    id="time-picker"
+                    //label='Choose the hour'
+                    value={selectedDate}
+                    onChange={handleDateChange}
+                    KeyboardButtonProps ={{'aria-alabel': 'change date'}}
+                    />
+
+                </Grid>
+            </MuiPickersUtilsProvider>
                 <br/>
                 <input className="button" type="submit"/>
         </form>
